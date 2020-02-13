@@ -16,7 +16,7 @@ namespace BackJack
             Console.WriteLine("La segunda carta es: " + carta2);
             int nuevacarta;
             int total = carta1 + carta2;
-            string respuesta = "s";
+            string respuesta = "";
             while (respuesta == "s"&& total < 21){
 
                 nuevacarta = aleatorio.Next(1, 10);
