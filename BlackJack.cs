@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BackJack
+namespace BlackJack
 {
     class Program
     {
