@@ -7,8 +7,8 @@ namespace BlackJack
         static void Main(string[] args)
         {
             Random aleatorio=new Random();
-            int carta1 = aleatorio.Next(1, 10);
-            int carta2 = aleatorio.Next(1, 10);
+            int carta1 = aleatorio.Next(1, 11);
+            int carta2 = aleatorio.Next(1, 11);
 
             Console.WriteLine("Escribe tu nombre");
             string nombre = Console.ReadLine();
@@ -19,7 +19,7 @@ namespace BlackJack
             string respuesta = "";
             while (respuesta == "s"&& total < 21){
 
-                nuevacarta = aleatorio.Next(1, 10);
+                nuevacarta = aleatorio.Next(1, 11);
                 Console.WriteLine("Nueva carta: " + nuevacarta);
                 total += nuevacarta;
                 if (total <= 21) {
