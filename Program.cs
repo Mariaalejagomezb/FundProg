@@ -9,7 +9,7 @@ namespace Dado_vida_puntos
             int dado = 0, dado2 = 0, vidas = 3, turnos = 0, total = 0;
             string respuesta = "";
             Random aleatorio= new Random();
-            while (vidas>=3&&total>100)
+            while (respuesta=="s")
             {
                 
                 Console.WriteLine("¿tirar dado?(s/n)");
